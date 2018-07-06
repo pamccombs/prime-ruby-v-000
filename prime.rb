@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?()
-  
+def prime?(x)
+  if x > 1 && 
 end
