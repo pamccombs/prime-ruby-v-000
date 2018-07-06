@@ -8,5 +8,4 @@ def prime?(n)
 else 
   false
  end
- false
 end
