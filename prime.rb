@@ -4,6 +4,6 @@ def prime?(n)
   d.each do |prime|
     if prime % n == 0
       true
-    
+    end
   end
 end
