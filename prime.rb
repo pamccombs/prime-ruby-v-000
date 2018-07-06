@@ -2,7 +2,7 @@
 def prime?(x)
   if x > 1 && x == 1 || x = x
     true
-  else
+  else x < 0
     false
   end
 end
