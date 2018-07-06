@@ -8,5 +8,5 @@ factx = Array.new
 		factx.push n
 	end
 }
-return factx
+factx
 end
