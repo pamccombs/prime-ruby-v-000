@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(x)
-  if x > 1 && x == 1 || x = x
+  else x > 1 && x == 1 || x = x
     true
-  else
+  if x < 1
     false
   end
 end
