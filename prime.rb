@@ -8,4 +8,6 @@ def prime?(n)
 else 
   false
  end
+ n < 1
+ false
 end
