@@ -1,4 +1,5 @@
 # Add  code here!
 def prime?(n)
-  (2..n/2).none?{|i| n % i == 0}
+ if n > 1 && x == x && x == 1
+ else
 end
