@@ -1,11 +1,12 @@
 # Add  code here!
 def prime?(n)
   
- if n == 2
-   true
- elsif n > 1 && n.odd?
-  true
-else 
-  false
- end
+ def find_factor(x)
+factx = Array.new
+(1..x).each{|n| 
+	if x % n == 0
+		factx.push n
+	end
+}
+return factx
 end
