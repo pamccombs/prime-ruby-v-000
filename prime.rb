@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(n)
-  if n < 1 
+  elsif n < 1 
     false
- elsif n.odd? ||  n == 2
+ if n.odd? ||  n == 2
    true
  end
 end
