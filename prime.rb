@@ -3,7 +3,7 @@ def prime?(n)
   
  if n == 2
    true
- elsif n.odd? && n > 1
+ elsif n > 1 && n.odd?
   true
  end
 end
