@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
- if n
+ if n.odd?
    true
  else
    false
