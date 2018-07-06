@@ -2,7 +2,7 @@
 def prime?(n)
  if n.odd?
    true
- else
+ else n == 2
    false
  end
 end
