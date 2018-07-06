@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(n)
-  if (1..n).to_a 
+  d = (1..n).to_a 
 end
