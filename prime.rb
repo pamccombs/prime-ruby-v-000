@@ -2,8 +2,8 @@
 def prime?(x)
   if x <= 1
     false
-  else x > 1 && x == 1 
+  elsif x > 1 && x == 1 || x = x
     true
-  
+    
   end
 end
