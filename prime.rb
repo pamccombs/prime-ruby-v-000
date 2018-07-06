@@ -5,5 +5,7 @@ def prime?(n)
    true
  elsif n > 1 && n.odd?
   true
+else 
+  false
  end
 end
