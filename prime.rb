@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(n)
   
- if n.odd? ||  n == 2
+ if n.odd? ||  n == 2 && n > 1
    true
-   elsif n < 1 
+ else
     false
  end
 end
